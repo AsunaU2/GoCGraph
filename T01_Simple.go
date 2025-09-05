@@ -1,3 +1,6 @@
+//go:build T01
+// +build T01
+
 package main
 
 import (

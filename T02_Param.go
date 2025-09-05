@@ -1,3 +1,6 @@
+//go:build T02
+// +build T02
+
 package main
 
 import (
@@ -91,7 +94,6 @@ func tutorialParam() {
 	Factory.Remove(pipeline)
 }
 
-// To run this example, comment out main() in T01_Simple.go and uncomment below:
-// func main() {
-// 	tutorialParam()
-// }
+func main() {
+	tutorialParam()
+}
