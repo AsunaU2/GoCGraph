@@ -1,6 +1,6 @@
 # go_cgraph_lite
 
-A lightweight DAG (Directed Acyclic Graph) execution framework for Go, ported from C++ CGraph-lite library.
+A lightweight DAG (Directed Acyclic Graph) execution framework for Go, ported from [C++ CGraph-lite](https://github.com/ChunelFeng/CGraph-lite) library.
 
 ## Features
 
@@ -86,6 +86,10 @@ Manages the entire DAG execution flow, handles dependencies and concurrent execu
 
 ### GParam
 Thread-safe parameter sharing mechanism between nodes.
+
+## Acknowledgments
+
+This project is inspired by and ported from the excellent [CGraph-lite](https://github.com/ChunelFeng/CGraph-lite) C++ library by ChunelFeng. We extend our heartfelt gratitude to the original author for creating such an elegant and efficient DAG execution framework.
 
 ## License
 
