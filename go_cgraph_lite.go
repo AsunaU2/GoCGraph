@@ -1,6 +1,6 @@
-// Package main provides a lightweight DAG (Directed Acyclic Graph) execution framework
+// Package gocgraph provides a lightweight DAG (Directed Acyclic Graph) execution framework
 
-package main
+package gocgraph
 
 import (
 	"context"
